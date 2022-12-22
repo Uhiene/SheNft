@@ -2,7 +2,7 @@ import React from "react";
 
 const WhiteList = () => {
   return (
-    <div className="flex justify-center p-10 h-1/2">
+    <div className="flex justify-center p-10">
       <div className="flex flex-col items-center w-full">
         <h1 className="text-2xl font-bold">What you will Benefits</h1>
         <p className="text-gray-500">

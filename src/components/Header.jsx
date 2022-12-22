@@ -1,4 +1,4 @@
-// import nftBg from "../assets/nft-bg-img.jpg";
+
 
 const Header = () => {
   return (

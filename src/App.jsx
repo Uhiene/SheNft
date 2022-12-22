@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import RecentlyJoined from "./components/RecentlyJoined"
 import WhiteList from "./components/WhiteList"
@@ -8,6 +9,7 @@ const App = () => {
       <Header/>
       <WhiteList/>
       <RecentlyJoined/>
+      <Footer/>
     </div>
   )
 }
