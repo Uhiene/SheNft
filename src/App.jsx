@@ -1,13 +1,15 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import Network from "./components/Network"
 import RecentlyJoined from "./components/RecentlyJoined"
 import WhiteList from "./components/WhiteList"
 
 const App = () => {
   return (
-    <div className="h-screen">
+    <div className="bg-[#fffdfd] h-screen">
       <Header/>
       <WhiteList/>
+      <Network/>
       <RecentlyJoined/>
       <Footer/>
     </div>

@@ -3,8 +3,8 @@ import React from "react";
 const RecentlyJoined = () => {
   return (
     <div className="p-10 text-center">
-      <h1 className="text-2xl font-bold">Recently Joined</h1>
-      <p className="text-gray-500">
+      <h1  className="text-3xl">Recently Joined</h1>
+      <p className="text-gray-500 text-lg">
         Lorem ipsum dolor sit, amet conisci laborum in.
       </p>
       <div className="flex flex-wrap justify-center mx-auto">
@@ -24,7 +24,7 @@ const RecentlyJoined = () => {
             </div>
           ))}
       </div>
-      <button className="bg-pink-700 text-white p-2 px-4 rounded-full text-xs mt-4">
+      <button className="bg-[#ffadc4] text-white p-2 px-4 rounded-full text-xs mt-4">
           Join WhiteList
         </button>
     </div>

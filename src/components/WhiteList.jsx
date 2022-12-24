@@ -4,19 +4,19 @@ const WhiteList = () => {
   return (
     <div className="flex justify-center p-10">
       <div className="flex flex-col items-center w-full">
-        <h1 className="text-2xl font-bold">What you will Benefits</h1>
-        <p className="text-gray-500">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, vero!
+        <h1 className="text-3xl">What you will Benefits</h1>
+        <p className="text-gray-500 text-lg text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />  Totam, vero!
         </p>
         <div className="flex justify-between mt-10  w-1/2">
-          <div className="shadow-gray-300 shadow-md rounded-sm text-center w-2/5">
+          <div className="shadow-gray-300 shadow-lg rounded-sm text-center w-fit">
             <div className="px-4 p-2">
               <h1 className="font-medium text-sm">Token Pre-slae</h1>
               <p className="text-xs text-gray-500">
                 Maximize your token sale reward
               </p>
             </div>
-            <div className="flex justify-between border-t border-gray-300 px-4 p-2 text-center">
+            <div className="flex space-x-4 border-t border-gray-300 px-4 p-2 text-center">
               <div>
                 <h1 className="text-4xl font-medium">100</h1>
                 <p className="text-xs text-gray-500">Days</p>
@@ -48,7 +48,7 @@ const WhiteList = () => {
             </ol>
           </div>
         </div>
-        <button className="bg-pink-700 text-white p-2 px-4 rounded-full text-xs mt-4">
+        <button className="bg-[#ffadc4] text-white p-2 px-4 rounded-full text-xs mt-4">
           Join WhiteList
         </button>
       </div>
