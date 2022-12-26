@@ -1,6 +1,9 @@
+import sheNft from "../assets/bg-transparent.png"
+
+
 const Header = () => {
   return (
-    <div className="bg-cover bg-center h-full header">
+    <div className="bg-cover bg-center min-h-screen header">
       <nav className="flex justify-between items-center p-4 px-20">
         <img
           src="https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/6359e13b1f520c343d4beff9_d-p-500.png"
@@ -24,7 +27,7 @@ const Header = () => {
           Join WhiteListing
         </button>
         <img
-          src="https://o.remove.bg/downloads/830e4ac4-fb63-4544-9afb-161c75f88c59/Screenshot_2022-12-24_at_11.02.37_PM-removebg-preview.png "
+          src={sheNft}
           alt="" className="w-1/2"
         />
         <div className="flex justify-between w-1/2">

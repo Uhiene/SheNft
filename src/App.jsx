@@ -6,7 +6,7 @@ import WhiteList from "./components/WhiteList"
 
 const App = () => {
   return (
-    <div className="bg-[#fffdfd] h-screen">
+    <div className="bg-[#fffdfd]">
       <Header/>
       <WhiteList/>
       <Network/>
