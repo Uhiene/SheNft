@@ -3,30 +3,31 @@ import React from "react";
 const RecentlyJoined = () => {
   return (
     <div className="p-10 text-center">
-      <h1  className="text-3xl">Recently Joined</h1>
-      <p className="text-gray-500 text-lg">
-        Lorem ipsum dolor sit, amet conisci laborum in.
-      </p>
-      <div className="flex flex-wrap justify-center mx-auto">
+      <h1 className="text-5xl my-5">Already Joined!</h1>
+      <div className="flex flex-wrap justify-center">
         {Array(6)
           .fill()
           .map((item, i) => (
-            <div className="shadow-gray-300 shadow-sm w-1/4 m-4 flex justify-between p-2 rounded-md">
-              <img
-                src="https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63707208f00394283c4c3906_2%20(1)-p-500.png"
-                alt=""
-                className="w-12 h-16 object-cover rounded-md "
-              />
-              <div className="text-start w-3/4">
-                <h1 className="font-medium">Janne Doe</h1>
-                <p className="text-xs text-gray-500">Berlin_Germany</p>
+            <div className="border border-gray-200 hover:shadow-gray-100 hover:shadow-xl w-full md:w-80 m-5 h-60 p-5 text-start rounded-lg space-y-4">
+              <h1 className="text-xl font-medium">Testimonial Title</h1>
+              <p className="text-md font-thin">
+                <span className=" font-medium">[testimonial goes in here]</span>{" "}
+                lorem ipsum is a placeholder text to demonstrate the visual.
+              </p>
+              <div className="flex items-center space-x-4">
+                <img
+                  src="https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63a9f32eddf22766ae4b2deb_Testimonial%20Avatar%2003.png"
+                  alt=""
+                  className="rounded-full w-12 h-12 bg-slate-100"
+                />
+                <div>
+                  <h1 className=" font-medium">Customer Name</h1>
+                  <p className="text-md font-thin">Company Name</p>
+                </div>
               </div>
             </div>
           ))}
       </div>
-      <button className="bg-[#ffadc4] text-white p-2 px-4 rounded-full text-xs mt-4">
-          Join WhiteList
-        </button>
     </div>
   );
 };
