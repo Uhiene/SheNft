@@ -1,17 +1,17 @@
-import Footer from "./components/Footer"
+// import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Network from "./components/Network"
-import RecentlyJoined from "./components/RecentlyJoined"
-import WhiteList from "./components/WhiteList"
+// import Network from "./components/Network"
+// import RecentlyJoined from "./components/RecentlyJoined"
+// import WhiteList from "./components/WhiteList"
 
 const App = () => {
   return (
-    <div className="bg-[#fffdfd]">
+    <div>
       <Header/>
-      <WhiteList/>
+      {/* <WhiteList/>
       <Network/>
       <RecentlyJoined/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
