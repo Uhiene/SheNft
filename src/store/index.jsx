@@ -40,6 +40,28 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
         },
         
         
+    ],
+    nftMinted : [
+        {
+            id:1,
+            image:"https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63ae315b917c0c92d7377590_34114-p-500.png",
+            names:"SHE1",
+        },
+        {
+            id:2,
+            image:"https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63ae3125dbb8c14bfef47ef1_29925-p-500.png",
+            names:"SHE2",
+        },
+        {
+            id:3,
+            image:"https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63b0971257f342c18fd52edc_2-p-500.png",
+            names:"SHE3",
+        },
+        {
+            id:4,
+            image:"https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63ae3035dbb8c10760f46d76_7734-p-500.png",
+            names:"SHE4",
+        },
     ]
 });
 export { setGlobalState, useGlobalState, getGlobalState };

@@ -25,7 +25,6 @@ const SignNow = () => {
         ></input>
       </div>
       </div>
-      
     </div>
   );
 };

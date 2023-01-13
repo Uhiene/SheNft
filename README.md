@@ -1,4 +1,4 @@
-
+<!-- 
 # Truffle-Tailwind-React Web3 Starter Kit
 Speedily develope your decentralized application with this starter kit for free!
 
@@ -33,4 +33,4 @@ Migrate your smart contract each time your restart ganache.
 ## Step 5. Run the Front End Application
 `$ yarn start`
 Visit this URL in your browser: http://localhost:3000
-
+ -->
