@@ -27,7 +27,7 @@ const DashboardNav = () => {
         </ul>
       </div>
       <div className="flex gap-4 items-center">
-        <button className="border-2 border-white p-2 px-4 text-sm text-white font-bold rounded-xl">
+        <button className="border-2 border-white p-2 sm:px-4 text-sm text-white font-bold rounded-xl">
           Connect Wallet
         </button>
         <GoThreeBars className="md:hidden" />
