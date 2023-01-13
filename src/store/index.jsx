@@ -1,6 +1,8 @@
 import { createGlobalState } from "react-hooks-global-state";
 
 const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
+    sidebar: "scale-0",
+    dashboard:"sclae-0",
     card: [
         {
            id:1, 
@@ -62,6 +64,12 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
             image:"https://uploads-ssl.webflow.com/63547883d13ee963134e3f68/63ae3035dbb8c10760f46d76_7734-p-500.png",
             names:"SHE4",
         },
-    ]
+    ],
+    properties : [
+        {
+           id:1,
+            heading:"Add OP to Aave V3 on Optimism",
+       },   
+       ]
 });
 export { setGlobalState, useGlobalState, getGlobalState };

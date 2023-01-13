@@ -1,6 +1,8 @@
 import React from "react";
 import { GoThreeBars } from "react-icons/go";
 import { Link } from "react-router-dom";
+import { setGlobalState } from "../store";
+import Sidebar from "./Sidebar";
 
 const DashboardNav = () => {
   return (
@@ -13,7 +15,7 @@ const DashboardNav = () => {
         />
         <ul className="hidden sm:flex gap-10">
           <Link to={"/dashboard"}>
-            <li className="hover:border-b hover:border-[#c9277b]">Dashboard</li>
+            <li className="cursor-pointer">Dashboard</li>
           </Link>
           <Link to={"/market"}>
             <li className="cursor-pointer">Markets</li>
@@ -27,10 +29,12 @@ const DashboardNav = () => {
         </ul>
       </div>
       <div className="flex gap-4 items-center">
-        <button className="border-2 border-white p-2 sm:px-4 text-sm text-white font-bold rounded-xl">
+        <button className="border-2 border-white p-2 sm:px-4 text-sm text-white font-bold rounded-xl"
+        >
           Connect Wallet
         </button>
-        <GoThreeBars className="md:hidden" />
+        <GoThreeBars className="md:hidden text-2xl text-white"  onClick={ () => setGlobalState('sidebar', 'scale-100')} />
+        <Sidebar/>
       </div>
     </div>
   );
